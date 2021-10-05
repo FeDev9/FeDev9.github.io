@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/*CSS variables*/
+:root {
+    --primary-color: #560CF5;
+    --primary-color2:#54C1Fb;
+    --title-color: #272848;
+    --text-color: #6c6d8a;
+    --border-color: #6c6d8a;
+    --gradient-color: linear-gradient(90deg,#6D71F9 0%,#54C1Fb 100%);
+    --shadow-color: 0px 10px 30px rgba(118,85,225,0.3);
+    --box-shadow: 0px 10px 30px rgba (57,56,61,0.205);
+
+/*font-family variables*/
+    --urbanist:'Urbanist', cursive;
+}

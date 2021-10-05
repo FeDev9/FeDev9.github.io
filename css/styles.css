@@ -1,2 +1,37 @@
 /* imports font from fonts.css file*/
 @import url(./fonts.css);
+
+/* import variables from variables.css file*/
+@import url(./partials/variables.css);
+
+/* Start navigation */
+
+.header-area .main-menu .navbar .navbar-brand {
+    padding: 0 2em 0 5em;
+}
+
+.header-area .main-menu .navbar {
+padding: 1em 20em;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+    font: normal 500 15px/2px var(--urbanist);
+    text-transform: uppercase;
+    padding: 1.7em;
+    color: var(--title-color);
+}
+
+.header-area .main-menu .navbar-nav .active{ /*set color in active nav-link*/
+    color:var(--primary-color);
+}
+
+.header-area .main-menu .navbar-nav a:hover{ /*set color in hover nav link*/
+    color:var(--primary-color);
+}
+
+.site-banner .title-text-name .txt-rotate{
+    color:var(--primary-color);
+}
+
+
+/* End navigation */
