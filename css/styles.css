@@ -4,14 +4,17 @@
 /* import variables from variables.css file*/
 @import url(./partials/variables.css);
 
+/*import global rules */    
+@import url(./partials/_global.css)
+
 /* Start navigation */
 
 .header-area .main-menu .navbar .navbar-brand {
-    padding: 0 2em 0 5em;
+    padding: 0 2rem 0 5rem;
 }
 
 .header-area .main-menu .navbar {
-padding: 1em 20em;
+padding: 1rem 10rem;
 }
 
 .header-area .main-menu .nav-item .nav-link {
@@ -29,9 +32,33 @@ padding: 1em 20em;
     color:var(--primary-color);
 }
 
-.site-banner .title-text-name .txt-rotate{
-    color:var(--primary-color);
-}
+
 
 
 /* End navigation */
+
+/*Start Banner Area */
+
+.site-banner .title-text-name .txt-rotate{
+    color:var(--primary-color);
+}
+.site-main .site-banner .site-title h3
+{
+    padding-top: 25%;
+    margin-left: 20%;
+    font-weight: 500;
+}
+.site-main .site-banner .site-title h1
+{
+    font-size: 2.5rem;
+    margin-left: 20%;
+}
+
+/*End Babber Area*/
+
+/*Start About Area*/
+
+.site-main .about-area
+{
+    padding: 8rem 5rem;
+}
