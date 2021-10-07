@@ -1,7 +1,7 @@
 .title-text {
-    font: normal 50px/72px var(--urbanist);
+    font: normal 40px/72px var(--urbanist);
     font-weight:bolder;
 }
 .title-text-name {
-    font: normal bold 50px/72px var(--urbanist);
+    font: normal bold 40px/72px var(--urbanist);
 }

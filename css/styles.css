@@ -5,16 +5,26 @@
 @import url(./partials/variables.css);
 
 /*import global rules */    
-@import url(./partials/_global.css)
+@import url(./partials/_global.css);
 
 /* Start navigation */
 
+/*.header-area{
+    position: fixed;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 50px;
+    box-shadow: blue;
+ 
+
+} */
+
 .header-area .main-menu .navbar .navbar-brand {
-    padding: 0 2rem 0 5rem;
+    padding: 0 25rem 0 5rem;
 }
 
 .header-area .main-menu .navbar {
-padding: 1rem 10rem;
+padding: 1rem 10em 1rem 10rem;
 }
 
 .header-area .main-menu .nav-item .nav-link {
@@ -39,6 +49,11 @@ padding: 1rem 10rem;
 
 /*Start Banner Area */
 
+.site-banner {
+    padding-bottom:5rem;
+
+}
+
 .site-banner .title-text-name .txt-rotate{
     color:var(--primary-color);
 }
@@ -58,7 +73,87 @@ padding: 1rem 10rem;
 
 /*Start About Area*/
 
+
+
+.site-main .about-area .about-img img {
+    border-radius: 300%;
+    width: 450px;
+    
+}
+
+
 .site-main .about-area
 {
     padding: 8rem 5rem;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    box-shadow: black;
+}
+
+.site-main .about-area h2.about-title>span {
+    font-family: var(--urbanist);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 0.5rem;
+    color: var(--title-color);
+}
+
+.site-main .about-area .para {
+    font-family: var(--urbanist);
+    font-style: italic;
+}
+p.para {
+    color: white;
+}
+
+h2 span {
+    background-color: white;
+}
+
+.site-main .about-area .about-img {
+    
+    text-align: center;
+
+}
+/*End About Area*/
+/*Start Skills Area*/
+
+.site-main .skills-area .skills-img img{
+    width:70px;
+}
+
+.site-main .skills-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .skills-area .skills-list .skills .card-title-text {
+    text-transform: uppercase;
+    font: normal 500 18px/18px var(--urbanist);
+}
+
+.site-main .skills-area .skills-title h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.site-main .skills-area .skills {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main .skills-area .skills:hover {
+    box-shadow: var(--box-shadow);
+}
+
+/* End Skills Area*/
+
+/*Start Projects Area*/
+.site-main .projects-area h1.projects-title {
+   font: normal 500 35px var(--urbanist);
+   text-transform: uppercase; 
 }
