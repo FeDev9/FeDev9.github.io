@@ -138,14 +138,59 @@ padding: 1rem 10em 1rem 10rem;
 .site-main .skills-area .skills {
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
-    width: 16rem;
-    margin: 5rem .5rem;
+    height: 300px;
     transition: box-shadow .7s ease;
 }
 
 .site-main .skills-area .skills:hover {
     box-shadow: var(--box-shadow);
 }
+
+.guage {
+    display: grid;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    cursor: default;
+  }
+  
+  .guage.cpp {
+    color: var(--primary-color);
+    background: conic-gradient(var(--primary-color) 0% 60%, lightgray 20% 100%);
+  }
+  
+  .guage.html {
+    color: var(--primary-color);
+    background: conic-gradient(var(--primary-color) 0% 50%, lightgray 20% 100%);
+  }
+  
+  .guage.css {
+    color: var(--primary-color);
+    background: conic-gradient(var(--primary-color) 0% 50%, lightgray 20% 100%);
+  }
+  .guage.fs {
+    color: var(--primary-color);
+    background: conic-gradient(var(--primary-color) 0% 0%, lightgray 20% 100%);
+  }
+  
+  .guage-inner {
+    display: grid;
+    place-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: lightgray;
+
+  }
+  .site-main .skills-area .skills-list .guage-inner span{
+      font-size: 10px;
+      
+  }
+
+  .site-main .skills-area .skills-list .guage-inner{
+      justify-content: center;
+  }
 
 /* End Skills Area*/
 
