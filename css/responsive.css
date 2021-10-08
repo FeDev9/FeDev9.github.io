@@ -16,8 +16,7 @@
         font-size: 40px;
     }
 
-    .site-main .contact-area .contact form .input-textbox input{
-        width: 18rem!important;
+    .site-main .contact-area .contact form .input-textbox{
         margin:auto;
     }
 
@@ -46,7 +45,7 @@
         font-size: 31px;
         letter-spacing: 10px;
     }
-    .site-main .contact-area .contact form .input-textbox input{
+    .site-main .contact-area .contact .input-textbox{
         width:20rem;
         margin:5%;
     }

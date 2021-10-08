@@ -9,15 +9,14 @@
 
 /* Start navigation */
 
-/*.header-area{
+.header-area{
     position: fixed;
     background-color: white;
-    border: 1px solid;
-    border-radius: 50px;
     box-shadow: blue;
+    width:100%;
  
 
-} */
+} 
 
 .header-area .main-menu .navbar .navbar-brand {
     padding: 0 25rem 0 5rem;
@@ -51,6 +50,7 @@ padding: 1rem 10em 1rem 10rem;
 
 .site-banner {
     padding-bottom:5rem;
+    padding-top: 5rem;
 
 }
 
@@ -105,6 +105,7 @@ padding: 1rem 10em 1rem 10rem;
     font-family: var(--urbanist);
     font-style: italic;
     color: white;
+    letter-spacing: .05rem;
 
 }
 
@@ -131,8 +132,9 @@ padding: 1rem 10em 1rem 10rem;
 }
 
 .site-main .skills-area .skills-title h1 {
-    font-size: 35px;
     text-transform: uppercase;
+    font: normal 600 35px var(--urbanist);
+    padding: 4rem 0;
 }
 
 .site-main .skills-area .skills {
@@ -236,19 +238,24 @@ height: 100px;
 }
 
 
-.site-main .contact-area .contact form .input-textbox input {
-    width: 400px;
-    padding: 0.75rem 1rem;
+.site-main .contact-area .contact .input-textbox button {
+    width: 300px;
+    padding: 1rem 1rem;
     border: 1px solid whitesmoke;
+    border-radius: 10px;
     color:black;
     font: normal 500 17px var(--urbanist);
+    background-color: white;
 }
 
-.site-main .contact-area .contact form .btn-submit button {
-    background: whitesmoke;
+.site-main .contact-area .contact .input-textbox button a{
+    font: normal 500 17px var(--urbanist)!important;
     color: black;
-    padding: .7rem 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    
 }
+
 
 .footer-area {
     background-color: var(--primary-color);
